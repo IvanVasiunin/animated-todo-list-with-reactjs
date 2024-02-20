@@ -7,6 +7,7 @@ export default function ChallengeItem({
   onViewDetails,
   isExpanded,
 }) {
+
   const { updateChallengeStatus } = useContext(ChallengesContext);
 
   const formattedDate = new Date(challenge.deadline).toLocaleDateString(
@@ -30,7 +31,7 @@ export default function ChallengeItem({
     <li>
       <article className="challenge-item">
         <header>
-          <img src={challenge.src} alt={challenge.alt} />
+          <img src={challenge.image.src} alt={challenge.image.alt} />
           <div className="challenge-item-meta">
             <h2>{challenge.title}</h2>
             <p>Complete until {formattedDate}</p>
@@ -42,7 +43,7 @@ export default function ChallengeItem({
             </p>
           </div>
         </header>
-        <div className="challenge-item-details">
+        <div className={`challenge-item-details ${isExpanded ? 'expanded' : ''}`}>
           <p>
             <button onClick={onViewDetails}>
               View Details{' '}
