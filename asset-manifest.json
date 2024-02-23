@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/animated-todo-list-with-reactjs/static/css/main.404ef4a2.css",
-    "main.js": "/animated-todo-list-with-reactjs/static/js/main.95458a0c.js",
+    "main.js": "/animated-todo-list-with-reactjs/static/js/main.1b2a44f7.js",
     "static/media/family-time.png": "/animated-todo-list-with-reactjs/static/media/family-time.17c7f3b978238b2c43e2.png",
     "static/media/playing-guitar.png": "/animated-todo-list-with-reactjs/static/media/playing-guitar.615290c1fa31ca6d9102.png",
     "static/media/cooking.png": "/animated-todo-list-with-reactjs/static/media/cooking.f37c4eb8360c2ded0229.png",
@@ -13,10 +13,10 @@
     "static/media/city.jpg": "/animated-todo-list-with-reactjs/static/media/city.59217558a50f09d30d2d.jpg",
     "index.html": "/animated-todo-list-with-reactjs/index.html",
     "main.404ef4a2.css.map": "/animated-todo-list-with-reactjs/static/css/main.404ef4a2.css.map",
-    "main.95458a0c.js.map": "/animated-todo-list-with-reactjs/static/js/main.95458a0c.js.map"
+    "main.1b2a44f7.js.map": "/animated-todo-list-with-reactjs/static/js/main.1b2a44f7.js.map"
   },
   "entrypoints": [
     "static/css/main.404ef4a2.css",
-    "static/js/main.95458a0c.js"
+    "static/js/main.1b2a44f7.js"
   ]
 }
