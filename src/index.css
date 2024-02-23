@@ -55,17 +55,17 @@ body {
   width: 20rem;
   max-width: 40%;
   position: absolute;
-  bottom: 10%;
-  left: 25%;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%)!important;
   object-fit: cover;
   filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
 }
 
 #welcome-header-content {
-  width: 40rem;
+  width: 100%;
   position: absolute;
   top: 30%;
-  left: calc(50% - 20rem);
   z-index: 1;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -365,4 +365,82 @@ main {
   background-color: #0f61ef;
   color: #fff;
   font-size: 0.5rem;
+}
+
+@media (max-width: 512px) {
+  #hero-image {
+    left: 38%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-image {
+    left: 38%;
+  }
+}
+
+@media (min-width: 769px) {
+  #hero-image {
+    left: 38%;
+  }
+}
+
+@media (min-width: 800px) {
+  #hero-image {
+    left: 39%;
+  }
+}
+
+@media (min-width: 900px) {
+  #hero-image {
+    left: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero-image {
+    left: 41%;
+  }
+}
+
+@media (min-width: 1140px) {
+  #hero-image {
+    left: 42%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #hero-image {
+    left: 43%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #hero-image {
+    left: 43.5%;
+  }
+}
+
+@media (min-width: 1600px) {
+  #hero-image {
+    left: 44%;
+  }
+}
+
+@media (min-width: 1800px) {
+  #hero-image {
+    left: 45%;
+  }
+}
+
+@media (min-width: 2000px) {
+  #hero-image {
+    left: 45.5%;
+  }
+}
+
+@media (min-width: 2560px) {
+  #hero-image {
+    left: 46.5%;
+  }
 }
