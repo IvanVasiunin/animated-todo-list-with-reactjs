@@ -4,8 +4,8 @@ import WelcomePage from '../pages/Welcome.jsx';
 import ChallengesPage from '../pages/Challenges.jsx';
 
 const router = createBrowserRouter([
-  { path: '/', element: <WelcomePage /> },
-  { path: '/challenges', element: <ChallengesPage /> },
+  { path: '/animated-todo-list-with-reactjs/', element: <WelcomePage /> },
+  { path: '/animated-todo-list-with-reactjs/challenges', element: <ChallengesPage /> },
 ]);
 
 function App() {

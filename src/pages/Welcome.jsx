@@ -26,7 +26,7 @@ export default function WelcomePage() {
           id="welcome-header-content"
         >
           <h1>Ready for a challenge?</h1>
-          <Link id="cta-link" to="/challenges">
+          <Link id="cta-link" to="/animated-todo-list-with-reactjs/challenges">
             Get Started
           </Link>
         </motion.div>
